@@ -19,7 +19,7 @@ const app = express()
 app.use(cors({
     origin: [
         'http://localhost:3000',
-        'https://mern-passwrap-api.herokuapp.com/',
+        'https://passwrap-ui.netlify.com/',
     ],
     credentials: true, //included credentials as true to get cookies
 }))
