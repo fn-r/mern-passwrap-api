@@ -19,7 +19,7 @@ const app = express()
 app.use(cors({
     origin: [
         'http://localhost:3000',
-        'https://passwrap-ui.netlify.com/',
+        'https://passwrap-ui.netlify.app',
     ],
     credentials: true, //included credentials as true to get cookies
 }))
