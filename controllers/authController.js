@@ -22,7 +22,7 @@ export const authLogin = async (req, res, next) => {
             httpOnly: true,
             secure: true,
             sameSite: "none",
-            domain: 'localhost:3000'
+            domain: 'mern-passwrap-api.herokuapp.com/api'
         })
         res.status(200).json({ ...otherDetails })
     } catch (error) {
@@ -36,6 +36,6 @@ export const authLogout = async (req, res, next) => {
         expires: new Date(0),
         secure: true,
         sameSite: "none",
-        domain: 'localhost:3000'
+        domain: 'mern-passwrap-api.herokuapp.com/api'
     }).send('User successfully logout')
 }
