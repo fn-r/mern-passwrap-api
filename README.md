@@ -14,7 +14,7 @@ This is the backend of the web app version of a previous project I did of [Passw
 The frontend of this web app can be found in the repo, https://github.com/fn-r/mern-passwrap-ui
 
 <a target="_blank" href="https://passwrap-ui.netlify.app/">
-    <img src="https://github.com/fn-r/portfolio/blob/main/images/projects/mern-passwrap.jpg" width="100%" alt="MERN Passwrap"/>
+    <img src="https://github.com/fn-r/portfolio/raw/main/images/gif/mern-passwrap.gif" width="100%" alt="MERN Passwrap"/>
 </a>
 
 ## Technology Stack
