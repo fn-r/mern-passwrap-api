@@ -5,7 +5,6 @@
   <a href="#technology-stack">Technology Stack</a> •
   <a href="#lesson-learned">Lesson Learned</a> •
   <a href="#setup">Setup</a> •
-  <a href="#build-and-deploy-heroku">Build and Deploy</a> •
   <a href="#additional-notes">Additional Notes</a> •
 </p>
 
@@ -46,10 +45,6 @@ Encryption:
     ```
     npm run dev
     ```
-
-## Build and Deploy (Heroku)
-1. Create a *new app* on Heroku
-1. Follow the instructions to deploy
 
 ## Additional Notes
 It is a common practice to not push `.env` file to your repo. The data stored in this repo is a sample format of each key-value pairs.
